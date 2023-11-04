@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid rev</title>
+    <style>
+        .parent{
+            height: 500px;
+            width: 100%;
+            background-color: black;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(5,1fr);
+            gap: 0.3rem;
+            grid-template-rows: 3,200px;
+        }
+        .child{
+            /* height: 50px; */
+            /* width: 50px; */
+            background-color: gray;
+        }
+        .child1{
+            grid-column: 1/3;
+            grid-row: 1/3;
+        }
+        .child7{
+            grid-column:3/6 ;
+            grid-row: 2/3;
+        }
+        .child8{
+            grid-column: 3/5;
+            grid-row: 3/5;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="child child1">
+            <img width="100%" height="100%"
+             src="https://pbs.twimg.com/media/Dpt_cuhW4AAJ22R.jpg" alt="">
+        </div>
+        <div class="child">
+            <img width="100%"
+            height="100%" src="https://e1.pxfuel.com/desktop-wallpaper/712/554/desktop-wallpaper-gavi-2022-gavi-thumbnail.jpg" alt="">
+        </div>
+        <div class="child">
+            <img width="100%" height="100%" src="https://i.pinimg.com/originals/80/b3/d0/80b3d079cc172388fa60420fe43f51a0.jpg" alt="">
+        </div>
+        <div class="child">
+            <img width="100%" height="100%" src="https://pbs.twimg.com/media/F4AmksxWsAA2Cbj.jpg" alt="">
+        </div>
+        <div class="child">
+            <img width="100%" height="100%" src="https://pbs.twimg.com/media/F0f0bLAX0AEJV5s.jpg" alt="">
+        </div>
+        <div class="child">
+            <img width="100%" height="100%" src="https://c8.alamy.com/comp/2HFJ1TE/paulo-dybala-of-juventus-fc-in-action-during-the-serie-a-202122-match-between-juventus-fc-and-udinese-calcio-at-allianz-stadium-on-15-january-2022-in-2HFJ1TE.jpg" alt="">
+        </div>
+        <div class="child child7"><img 
+            height="100%"
+            width="100%"
+            
+            src="https://i.ytimg.com/vi/etloU1fN-2Q/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAdth3Kcv89Nsx5SRaWFBHzHbwPag" alt=""></div>
+        <div class="child child8">
+            <img width="100%"
+            height="100%" 
+            
+            src="https://www.tronsmart.com/img/cms/Blog/10%20celebration%20-%20football/9%20.jpg" alt="">
+        </div>
+        <div class="child child9">
+            <img width="100%" height="100%" src="https://www.pixelstalk.net/wp-content/uploads/images6/Cristiano-Ronaldo-Wallpaper-HD.jpg" alt="">
+        </div>
+        
+    </div>
+</body>
+</html>
